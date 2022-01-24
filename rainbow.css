@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+.rinbow {
+  height: 200px;
+  overflow: hidden;
+}
+.rinbow div {
+  overflow: hidden;
+}
+.rinbow > div {
+  width: 400px;
+  height: 400px;
+  background: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+.rinbow > div > div {
+  background: rgb(255, 102, 0);
+  height: 380px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div {
+  background: rgb(251, 255, 0);
+  height: 360px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div > div {
+  background: rgb(21, 255, 0);
+  height: 340px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div > div > div {
+  background: rgb(0, 238, 255);
+  height: 320px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div > div > div > div {
+  background: rgb(0, 17, 255);
+  height: 300px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div > div > div > div > div {
+  background: rgb(111, 0, 255);
+  height: 280px;
+  margin: 10px;
+  border-radius: 50%;
+}
+.rinbow > div > div > div > div > div > div > div > div {
+  background: rgb(255, 255, 255);
+  height: 260px;
+  margin: 10px;
+  border-radius: 50%;
+}
